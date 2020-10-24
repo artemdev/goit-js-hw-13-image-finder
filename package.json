@@ -49,8 +49,9 @@
     "webpackbar": "^4.0.0"
   },
   "dependencies": {
-    "lodash.debounce": "4.0.8",
     "core-js": "^3.6.5",
-    "handlebars": "^4.7.6"
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.6",
+    "lodash.debounce": "4.0.8"
   }
 }
