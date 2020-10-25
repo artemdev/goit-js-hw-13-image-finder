@@ -1,0 +1,66 @@
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /*
+   * CSS image reference example.
+   */
+}
+// .photo-card {
+//   position: relative;
+// }
+
+.stats {
+  display: flex;
+}
+.image-box {
+  width: 350px;
+  height: 350px;   
+  border: 1px solid grey;
+  margin: 3px;
+  display: flex;
+  align-items: center;
+
+}    
+.img-fluid {
+  max-width: 100%;
+  max-height: 100%;
+}
+.load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+}
+.search-form {
+  padding: 20px 0;
+  max-width: 300px;
+  
+  display: block;
+  margin: 0 auto;
+  & input {
+    height: 50px;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+// .gallery {
+//   display: flex;
+//   &__item {
+//     list-style-type: none;
+//   }
+// }
